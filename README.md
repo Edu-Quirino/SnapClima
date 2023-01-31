@@ -9,10 +9,15 @@ Aplicação utilizando HTML, CSS e JAVASCRIPT com implementação de API de clim
 > ```tex
 > 5441a76833c304a059fb6cd4f9f73638
 > ```
-
-
-
-
-
-Senha: 1° perrengue 
-
+>
+> **Javascript**
+>
+> [ ] Colocar descrição dentro de alt na weather-icon
+>
+> [ ] Colocar aria-hidden = "true" na weather-icon
+>
+> [ ] Voltar com os ... em todos os valores
+>
+> [ ] Colocar no atributo content o valor maximum-scale=1
+>
+> [ ] Observação sobre texto dentro de div
