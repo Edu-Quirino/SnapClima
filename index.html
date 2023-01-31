@@ -3,18 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Snapclima</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-    crossorigin="anonymous"></script>
+  <!-- Fontest -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Ubuntu:ital,wght@0,500;1,400&display=swap"
+    rel="stylesheet">
 
   <!-- meu css -->
   <link rel="stylesheet" href="style.css">
@@ -23,54 +21,48 @@
 
 <body>
 
-  <header style="background : red;">
-    <div>
-      <input type="text" placeholder="Temperatura de qual cidadede?">
-      <button>
-        <img src="./_img/lupa.png " height="20px" width="25px" alt="icone de lupa">
+  <header class="header">
+    <div class="header__city-serach-bar">
+      <input class="header__input" type="text" placeholder="Temperatura de qual cidadede?">
+      <button class="header__button">
+        <img class="header__button-icon" src="./_img/assets/search-icon.svg" alt="icone de lupa">
       </button>
     </div>
-
-    <div>...</div>
-    <div>...</div>
+    <div class="header__current-date">Hoje, 24 de Janeiro</div>
+    <div class="header__city-name">Sâo Paulo</div>
   </header>
 
-  <section style="background :blue;">
-    <img src="#" alt="">
-    <div>...</div>
-    <div>Tempo agora</div>
-    <div>...</div>
+  <section class="current-temperature">
+    <img class="current-temperature__weather-icon" src="_img/assets/04d.svg" alt="">
+    <div class="current-temperature___description">Nublado</div>
+    <div class="current-temperature__info-label">Tempo agora</div>
+    <div class="current-temperature__current-temperature">24°C</div>
   </section>
 
-  <div style="background : rgb(0, 255, 179);">
-
-    <section>
-      <div>
-        <div>Vento</div>
-        <div>...</div>
+  <div class="bottom-container">
+    <section class="temperature-details">
+      <div class="temperature-details__item">
+        <div class="temperature-details__label">Vento</div>
+        <div class="temperature-details__value">19Km</div>
       </div>
-
-      <div>
-        <div>Sensação</div>
-        <div>...</div>
+      <div class="temperature-details__item">
+        <div class="temperature-details__label">Sensação</div>
+        <div class="temperature-details__value">25°C</div>
       </div>
-
-      <div>
-        <div>Umidade</div>
-        <div>...</div>
+      <div class="temperature-details__item">
+        <div class="temperature-details__label">Umidade</div>
+        <div class="temperature-details__value">84%</div>
       </div>
     </section>
 
-
-    <section>
-      <div>
-        <img src="#" alt="Nascer do sol">
-        <div>...</div>
+    <section class="sunset-sunrise">
+      <div class="sunset-sunrise__item">
+        <img class="sunset-sunrise__icon" src="./_img/assets/sunrise.svg" alt="Nascer do sol">
+        <div class="sunset-sunrise__value">5:39</div>
       </div>
-
-      <div>
-        <img src="#" alt="Por do sol">
-        <div>...</div>
+      <div class="sunset-sunrise__item">
+        <img class="sunset-sunrise__icon" src="./_img/assets/sunset.svg" alt="Por do sol">
+        <div class="sunset-sunrise__value">18:57</div>
       </div>
     </section>
   </div>
