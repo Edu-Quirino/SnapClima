@@ -6,10 +6,12 @@ Aplicação utilizando HTML, CSS e JAVASCRIPT com implementação de API de clim
 
 > API utilizada **open weather api**
 >
-> 🔗https://openweathermap.org/api
+> [open weather api]: https://openweathermap.org/api	" Site da Api"
 >
 > ```tex
-> 5441a76833c304a059fb6cd4f9f73638
+> https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+> 
+> APIKey Eduardo-Quirino: 5441a76833c304a059fb6cd4f9f73638
 > ```
 >
 > **Javascript**
