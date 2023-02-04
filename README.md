@@ -28,4 +28,4 @@ Aplicação utilizando HTML, CSS e JAVASCRIPT com implementação de API de clim
 
 ---
 
-![SnapClima](C:\Users\Edu\Documents\GitHub\SnapClima\_img\fotoApp\app.png)
+<img src="./_img/fotoApp/app.png" alt="foto do aplicativo">
