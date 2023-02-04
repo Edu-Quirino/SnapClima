@@ -25,3 +25,7 @@ Aplicação utilizando HTML, CSS e JAVASCRIPT com implementação de API de clim
 > [x] Colocar no atributo content o valor maximum-scale=1
 >
 > [x] Observação sobre texto dentro de div
+
+---
+
+![SnapClima](C:\Users\Edu\Documents\GitHub\SnapClima\_img\fotoApp\app.png)
